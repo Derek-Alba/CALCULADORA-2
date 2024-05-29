@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #000022;
+}
+
+.pantalla {
+    background-color: #DDDBCB;
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #050505;
+}
+
+.card-body {
+    background-color: #000000;
+    border: none;
+    outline: none;
+
+}
+
+.btn {
+    background-color: #E28413;
+    color: #050505;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: 2px solid #CCC9DC;
+}
+
+.card {
+    border: 10px solid white;
+    box-shadow: 0 0 15px 3px #0CFFF4
+}
