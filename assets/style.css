@@ -9,7 +9,7 @@ body {
 }
 
 .pantalla {
-    background-color: #DDDBCB;
+    background-color: #dddbcb00;
     width: 240px;
     height: 50px;
     padding: 10px;
@@ -19,7 +19,9 @@ body {
     margin-bottom: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    color: #050505;
+    color: white;
+    border: 1px solid #0CFFF4;
+    box-shadow: 0 0 5px 1px #0CFFF4
 }
 
 .card-body {
@@ -36,9 +38,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     border: 2px solid #CCC9DC;
+    box-shadow: 0 0 8px 1px rgb(29, 234, 248)
 }
 
 .card {
     border: 10px solid white;
-    box-shadow: 0 0 15px 3px #0CFFF4
+    box-shadow: 0 0 15px 5px #0CFFF4
 }

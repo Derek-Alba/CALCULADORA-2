@@ -19,7 +19,7 @@ const op = document.querySelectorAll('.op')
 let numeroA;
 let numeroB;
 let operaciones;
-let numeroC;
+
 
 
 btnUno.addEventListener('click', () => {
@@ -38,6 +38,7 @@ btnTres.addEventListener('click', () => {
 
 })
 
+// SUMA
 btnSuma.addEventListener('click', () => {
   numeroA = pantalla.value
   pantalla.value = ''
@@ -59,12 +60,11 @@ btnSiete.addEventListener('click', () => {
   pantalla.value += '6'
 
 })
-
+// MULTIPLICACION 
 btnMulti.addEventListener('click', () => {
   numeroA = pantalla.value
   pantalla.value = ''
   operaciones = 3
-
 })
 
 btnNueve.addEventListener('click', () => {
@@ -75,13 +75,14 @@ btnNueve.addEventListener('click', () => {
 
 btnDiez.addEventListener('click', () => {
   pantalla.value += '8'
- 
+
 })
 
 btnOnce.addEventListener('click', () => {
   pantalla.value += '9'
 })
 
+// DIVISION
 btnDivi.addEventListener('click', () => {
   numeroA = pantalla.value
   pantalla.value = ''
@@ -91,20 +92,21 @@ btnDivi.addEventListener('click', () => {
 
 btnTrece.addEventListener('click', () => {
   pantalla.value += '0'
-  
-})
 
+})
+// LIMPIAR 
 btnLimpiar.addEventListener('click', () => {
   pantalla.value = ''
 })
 
+//RESTA
 btnResta.addEventListener('click', () => {
   numeroA = pantalla.value
   pantalla.value = ''
   operaciones = 2
 
 })
-
+// RESULTADO
 btnIgual.addEventListener('click', () => {
   numeroB = pantalla.value;
   let resultado = 0;
@@ -125,10 +127,11 @@ btnIgual.addEventListener('click', () => {
       resultado = parseInt(numeroA) / parseInt(numeroB);
       pantalla.value = resultado
       break;
+
     default:
-     resultado = 0;
-     numeroA = 0;
-     numeroC= resultado
+      resultado = 0;
+      numeroA = 0;
+
   }
 })
 
