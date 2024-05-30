@@ -113,7 +113,7 @@ btnIgual.addEventListener('click', () => {
   switch (operaciones) {
     case 1:
       resultado = parseInt(numeroA) + parseInt(numeroB);
-      pantalla.value = resultado
+      pantalla.value = resultado    
       break;
     case 2:
       resultado = parseInt(numeroA) - parseInt(numeroB);
